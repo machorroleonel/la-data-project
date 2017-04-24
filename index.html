@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LA Data Project</title>
+        <link rel="stylesheet" href="style.css" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+               
+    </head> 
+    <body>
+        <h1>LA Data Water Project</h1>
+        <h5>This LA Data Project reveals how water is used within the zip codes of Los Angeles. This website will allow you to be able to see the growth in waterused through the years. Next, this webite gives you the data about how much water is used by people in gallons throughout the years
+         .Finally, this website can be used to see what years have used more gallons of water. </h5>
+        <button onclick={getLADataFromAPI()}>Get Data</button>
+        <div class="row">
+        <div id="result"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
